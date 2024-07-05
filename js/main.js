@@ -348,20 +348,23 @@ for (let day of days) {
   }
 }
 
-//更多页面切换
-// let shoemore = false;
-// $("#switchmore").on("click", function () {
-//   shoemore = !shoemore;
-//   if (shoemore && $(document).width() >= 990) {
-//     $("#container").attr("class", "container mores");
-//     $("#change").html("Oops&nbsp;!");
-//     $("#change1").html("哎呀，这都被你发现了（ 再点击一次可关闭 ）");
-//   } else {
-//     $("#container").attr("class", "container");
-//     $("#change").html("Hello&nbsp;World&nbsp;!");
-//     $("#change1").html("一个不正经的Up");
-//   }
-// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //更多页面关闭按钮
 $("#close").on("click", function () {
