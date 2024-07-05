@@ -75,22 +75,16 @@ $.ajax({
         })
 
         /* 一言与音乐切换 */
-        $('#open-music').on('click', function () {
-            $('#hitokoto').css("display", "none");
-            $('#music').css("display", "flex");
-        });
 
-        $("#hitokoto").hover(function () {
-            $('#open-music').css("display", "flex");
-        }, function () {
-            $('#open-music').css("display", "none");
-        })
 
-        $('#music-close').on('click', function () {
-            $('#music').css("display", "none");
-            $('#hitokoto').css("display", "flex");
-        });
 
+
+
+
+
+
+
+        
         /* 上下曲 */
         $('#play').on('click', function () {
             ap.toggle();
